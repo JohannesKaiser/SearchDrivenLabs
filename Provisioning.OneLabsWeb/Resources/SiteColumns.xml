@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <Field ID="{0BB1FB33-9475-4329-8AFC-060CDF3D52BD}"
+     Type="Number"
+     Name="Sprintnumber"
+     Required="TRUE"
+     DisplayName="Sprintnumber"
+     Description="should automaticly calculated"
+     Group="OneLab Columns">
+  </Field>
+  
+  <Field ID="{DD2C7766-178E-4771-B137-E2BD957CC3C7}"
+       Type="Text"
+       Name="Sprintname"
+       Required="TRUE"
+       DisplayName="Sprintname"
+       Description="Give name for sprint"
+       Group="OneLab Columns">
+  </Field>
+
+  <Field ID="{93A667FA-FD7D-470E-969A-78082DBD3C1C}"
+       Type="User"
+       Name="Owner"
+       Required="TRUE"
+       DisplayName="Owner"
+       Description="Give owner for sprint"
+       Group="OneLab Columns">
+  </Field>
+
+  <Field ID="{0E586D86-08C5-44BB-AD80-3102CF5B8612}"
+       Type="Note"
+       Name="ContosoWorkspaceDescription"
+       Required="FALSE"
+       RichText="FALSE"
+       NumLines="6"
+       DisplayName="Description"
+       Description="Provide short description"
+       Group="OneLab Columns>
+  </Field>
+
+  <Field ID="{8FB0182E-6959-4C42-AA5E-404DBCCFA93B}"
+       Type="UserMulti"
+       Name="ContosoWorkspaceResponsibleUsers"
+       Required="TRUE"
+       Mult="TRUE"
+       DisplayName="Responsible users"
+       Description="Provide responsible user"
+       Group="Contoso Columns">
+  </Field>
+
+  <Field ID="{05D336CA-BA82-43DA-B7A9-49098C3B1E86}"
+     Type="UserMulti"
+     Name="ContosoAdministrators"
+     Required="TRUE"
+     Mult="TRUE"
+     DisplayName="Administrators"
+     Description="Choose one or numerous owners"
+     Group="Contoso Columns">
+  </Field>
+
+</Elements>
