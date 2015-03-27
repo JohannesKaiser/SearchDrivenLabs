@@ -17,9 +17,9 @@ a SharePoint website to host sub webs named 'labs' to aggregate the labs content
     - Use this template to create a new subsite
     - Check our search setting, so we get the result view in our wished manner
 - Save the whole stuff now as a site template (sandboxed wsp)
-    - at this moment we have from our core in [PnP](../_gitHub/PnP/README.md) no code block to save a site as xml template
+    - at this moment we have from our core in [PnP](https://github.com/OfficeDev/PnP/blob/master/README.md) no code block to save a site as xml template
     - so we must do it at the moment over the old VS way, we will extrakt from the wsp the xml using our brain
-    - after this is done we will craete step bey step from the [Samples](../_gitHub/PnP/Samples), Tests and Scenarios our target 
+    - after this is done we will craete step bey step from the [Samples](https://github.com/OfficeDev/PnP/tree/master/Samples), Tests and Scenarios our target 
         - on the end we will have one VS project with a complete App the new app way
         - our search page will our primary page
         - we will have a link on this page to our lists, where users are able to do a new request for a new lab or sprint
